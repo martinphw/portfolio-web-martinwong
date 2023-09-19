@@ -20,8 +20,9 @@ function Header() {
         p={isNotSmallerScreen ? '8' : '0'}
         alignSelf="flex-start"
         minWidth="100%"
+        mt={[4,4,8]}
       >
-        <Box mt={isNotSmallerScreen ? '0' : '16'} align="flex-start">
+        <Box mt={isNotSmallerScreen ? '0' : '16'} align="flex-start" maxWidth="70ch">
           <Text fontSize="3xl" fontWeight="semibold">
             Hi I am
           </Text>
@@ -33,9 +34,9 @@ function Header() {
           >
             Martin Wong
           </Text>
-          <Text color={isDark ? 'gray.200' : 'gray.500'}>
-            Graduate of RMIT at Master of Information Technology. Looking for
-            job opportunities!
+          <Text color={isDark ? 'gray.200' : 'gray.500'} align={'justify'}>
+            Full-stack software engineer with the Microsoft tech stack e.g. Angular, .Net, Xamarin and Azure.
+            Looking for opportunity to update my skill set with modern technology, curenntly learning React, golang etc.
           </Text>
         </Box>
         <Image
@@ -46,7 +47,7 @@ function Header() {
           backgroundColor="transparent"
           boxShadow="lg"
           boxSize="150px"
-          src="https://cdn.dribbble.com/users/36443/screenshots/4735135/media/af03cb1bb7e329038cacd14e672ab66a.jpg?compress=1&resize=800x600"
+          src='/images/icon.jpg'
           ml="20px"
           alt="icon"
         />
