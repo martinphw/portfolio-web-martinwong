@@ -10,12 +10,10 @@ function Profile() {
         <Heading as="h3" variant="section-title">
           Introduction
         </Heading>
-        <Text>
-          I used to be a civil engineer, by that time I start to write simple
-          VBA programs to help improve my working efficiency. Later on I found I
-          enjoy coding more than the civil engineering job so I decided to take
-          an IT master and change my career path. Now I want to become a full
-          stack engineer.
+        <Text align={'justify'}>
+          Full-stack software engineer with 2 years of experience in Angular Web and Xamarin Android app development. 
+          Although my current company uses the Microsoft tech stacks, I enjoy playing around with other frameworks. 
+          Currently learning and practicing React.js with my personal projects, include this portfolio web.
         </Text>
       </Box>
       <Box>
@@ -23,36 +21,35 @@ function Profile() {
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2018</BioYear>
-          Completed the Bachelor of Civil Engineering in University of Hong Kong
+          <BioYear>Now </BioYear>
+          Work as a full stack software engineer, develop both web and android application with Angular, .Net and Xamarin
         </BioSection>
         <BioSection>
-          <BioYear>2018</BioYear>
-          Work as Civil Engineer in Hong Kong.
+          <BioYear>2021</BioYear>
+          Complete the Master of Information Technology at RMIT.
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
           Start the study of Master of Information Technology at RMIT.
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
-          Complete the Master of Information Technology at RMIT.
+          <BioYear>2018</BioYear>
+          Work as Civil Engineer in Hong Kong.
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Completed the Bachelor of Civil Engineering in University of Hong Kong
         </BioSection>
       </Box>
       <Box>
         <Heading as="h3" variant="section-title">
           Skill Set
         </Heading>
-        <Text>
-          I have experience of using the tech mentioned below for my assignments
-          and projects:
-        </Text>
-        <Text>Java, JavaFX, Python, Flask</Text>
-        <Text>
-          Javascript, ReactJS, Material-ui-reactjs, chakra-ui-reactjs, AngularJs
-        </Text>
-        <Text>Unity 2D and 3D in C#, unity ML-Agents</Text>
-        <Text>AWS EC2, S3, transcript</Text>
+        <Text>Angular and rxjs</Text>
+        <Text>React.js with next.js, material ui and chakra ui</Text>
+        <Text>.NET and Xamarin</Text>
+        <Text>Springboot</Text>
+        <Text>Azure and AWS</Text>
       </Box>
       <Box alignSelf="center">
         <Link href="/works" passhref m="20">
